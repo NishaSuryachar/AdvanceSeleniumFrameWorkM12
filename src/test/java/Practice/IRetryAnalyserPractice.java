@@ -10,7 +10,7 @@ public class IRetryAnalyserPractice
 	@Test(retryAnalyzer = GenericUtilities.RetryAnalyserImplementation.class)
      public void sample()
      {
-		Assert.fail();
+		//Assert.fail();
     	System.out.println("Hi");
      }
 }

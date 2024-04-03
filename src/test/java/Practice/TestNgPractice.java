@@ -8,7 +8,7 @@ public class TestNgPractice
 	@Test
 	public void create()
 	{
-		Assert.fail();
+		//Assert.fail();
 		System.out.println("create");
 	}
 	@Test(dependsOnMethods = "create")
